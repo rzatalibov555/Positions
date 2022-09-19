@@ -104,5 +104,6 @@
     min-height: 90px;
     background: blue;
     float: left;
-    position: fixed;
+    position: sticky;
+    top: 0px;
 }
