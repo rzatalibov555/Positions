@@ -1,9 +1,16 @@
-    /*Position Static adi formada olan*/
+    /*Position Relative adi formada olan*/
 .main{
     width: 150px;
     min-height: 150px;
     background: red;
     float: left;
+
+    position: relative;
+    /*top: 100px;*/
+    /*bottom: ;*/
+    /*left: 50px;*/
+    /*right: ;*/
+
 }
 
 .main2{
@@ -11,4 +18,9 @@
     min-height: 150px;
     background: blue;
     float: left;
+    /*z-index: 2;*/
+    position: relative;
+    left: 100px;
+    top: 50px;
+    /*margin-left: 150px;*/
 }
