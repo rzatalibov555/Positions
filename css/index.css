@@ -1,0 +1,14 @@
+    /*Position Static adi formada olan*/
+.main{
+    width: 150px;
+    min-height: 150px;
+    background: red;
+    float: left;
+}
+
+.main2{
+    width: 150px;
+    min-height: 150px;
+    background: blue;
+    float: left;
+}
