@@ -1,4 +1,9 @@
     /*Position Absolute adi formada olan*/
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    
     .main {
         width: 150px;
         min-height: 550px;
@@ -78,17 +83,26 @@
     height: 500px;
     background: red;
     float: left;
-    position: absolute;
+    position: fixed;
     right: 50px;
     bottom: 50px;
+    opacity: 0.5;
 }
 
 .ch5{
     width: 50px;
     height: 50px;
     float: left;
-    position: absolute;
+    position: fixed;
     background: gray;
     bottom: 50px;
     right: 50px;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 90px;
+    background: blue;
+    float: left;
+    position: fixed;
 }
