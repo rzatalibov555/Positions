@@ -1,26 +1,94 @@
-    /*Position Relative adi formada olan*/
-.main{
-    width: 150px;
-    min-height: 150px;
-    background: red;
-    float: left;
+    /*Position Absolute adi formada olan*/
+    .main {
+        width: 150px;
+        min-height: 550px;
+        background: red;
+        float: left;
+        position: relative;
 
-    position: relative;
-    /*top: 100px;*/
-    /*bottom: ;*/
-    /*left: 50px;*/
-    /*right: ;*/
 
+    }
+
+    .ch1 {
+        width: 50px;
+        height: 50px;
+        float: left;
+        background: yellow;
+        position: absolute;
+        bottom: 0px;
+        /* left: 50px; */
+        z-index: 1;
+        /* border-radius: 50%; */
+    }
+
+    .ch2 {
+        width: 50px;
+        height: 50px;
+        float: left;
+        background: blue;
+        position: absolute;
+        right: -25px;
+        top: 50px;
+        z-index: 1;
+        border-radius: 50%;
+    }
+
+
+
+    .main2 {
+        width: 150px;
+        min-height: 150px;
+        background: blue;
+        float: left;
+        position: relative;
+
+    }
+
+    .ch3 {
+        width: 50px;
+        height: 50px;
+        float: left;
+        background: pink;
+        position: absolute;
+        /* bottom: -25px; */
+        /* left: 50px; */
+        z-index: 1;
+        /* border-radius: 50%; */
+   
+    }
+
+    .ch4 {
+        width: 50px;
+        height: 50px;
+        float: left;
+        background: yellow;
+        position: absolute;
+        right: -25px;
+        top: 50px;
+        z-index: 1;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
-.main2{
-    width: 150px;
-    min-height: 150px;
-    background: blue;
+.chatBox{
+    width: 300px;
+    height: 500px;
+    background: red;
     float: left;
-    /*z-index: 2;*/
-    position: relative;
-    left: 100px;
-    top: 50px;
-    /*margin-left: 150px;*/
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.ch5{
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    background: gray;
+    bottom: 50px;
+    right: 50px;
 }
